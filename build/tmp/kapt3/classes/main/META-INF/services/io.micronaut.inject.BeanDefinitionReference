@@ -1,0 +1,12 @@
+com.zup.adapters.entrada.$PessoaControllerDefinitionClass
+com.zup.usecase.impl.$AtualizaUseCaseImplDefinitionClass
+com.zup.usecase.impl.$CadastraUseCaseImplDefinitionClass
+com.zup.ports.impl.$PessoaDataBaseAtualizaPortImplDefinitionClass
+com.zup.ports.impl.$PessoaDataBaseListaTodoPortImplDefinitionClass
+com.zup.ports.impl.$PessoaDataBaseCriaPortImplDefinitionClass
+com.zup.adapters.saida.$PessoaRepository$InterceptedDefinitionClass
+com.zup.usecase.impl.$DeletaUseCaseImplDefinitionClass
+com.zup.ports.impl.$PessoaDataBaseDeletaPortImplDefinitionClass
+com.zup.usecase.impl.$RecuperaTudoPessoaImplDefinitionClass
+com.zup.ports.impl.$PessoaDataBaseRecuperaPortImplDefinitionClass
+com.zup.usecase.impl.$RecuperaUseCaseImplDefinitionClass
