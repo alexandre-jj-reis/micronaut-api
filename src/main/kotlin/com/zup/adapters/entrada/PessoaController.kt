@@ -1,5 +1,6 @@
 package com.zup.adapters.entrada
 
+import com.zup.dto.PessoaDTO
 import com.zup.entities.Pessoa
 import com.zup.usecase.*
 import io.micronaut.http.HttpResponse
@@ -25,7 +26,7 @@ class PessoaController() {
     lateinit var deletaUseCase: DeletaUseCase
 
     @Post("/")
-    fun cadastraPessoa(@Body pessoa : Pessoa) : HttpResponse<Pessoa>{
+    fun cadastraPessoa(@Body pessoa : PessoaDTO) : HttpResponse<Pessoa>{
         return HttpResponse.created(cadastraUseCase.execute(pessoa = pessoa));
     }
 
@@ -35,7 +36,7 @@ class PessoaController() {
     }
 
     @Put("/")
-    fun atualizaPessoa(@Body pessoa : Pessoa) : HttpResponse<Pessoa>{
+    fun atualizaPessoa(@Body pessoa : PessoaDTO) : HttpResponse<Pessoa>{
         return HttpResponse.ok(atualizaUseCase.execute(pessoa = pessoa));
     }
 

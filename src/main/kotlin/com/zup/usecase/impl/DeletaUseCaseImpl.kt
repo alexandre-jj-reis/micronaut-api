@@ -12,7 +12,7 @@ class DeletaUseCaseImpl : DeletaUseCase{
     lateinit var deletaPort: PessoaDataBaseDeletaPort
 
     override fun execute(id: String) {
-       deletaPort.execute(id = id);
+        deletaPort.execute(id = id)
     }
 
 }

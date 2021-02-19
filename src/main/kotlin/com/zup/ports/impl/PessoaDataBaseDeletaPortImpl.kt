@@ -1,7 +1,6 @@
 package com.zup.ports.impl
 
 import com.zup.adapters.saida.PessoaRepository
-import com.zup.entities.Pessoa
 import com.zup.ports.PessoaDataBaseDeletaPort
 import javax.inject.Inject
 import javax.inject.Singleton
